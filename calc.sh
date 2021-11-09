@@ -9,6 +9,16 @@ while true; do
   # Add
   # Subtract
   # Exit
+  
+echo "You can perform the following operations:"
+  # Add
+echo "1 : Add"
+  # Subtract
+echo "2 : Substract"
+  # Multiply 
+echo "3 : Multiply"
+  # Exit
+echo "4 : Exit"
 
 # Then, capture the user selection.
 # If the selection matches a supported operation, execute the operation.
