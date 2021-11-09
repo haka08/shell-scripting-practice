@@ -85,5 +85,12 @@ expr $first_number / $second_number
   ;;
 
  
+# If the selection does not match a support operation, display an error message.
+
+ *)
+  echo "Seems like an incorrect input, please try again."
+  ;;
+esac
+done
 
  
