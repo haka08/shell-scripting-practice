@@ -55,3 +55,16 @@ expr $first_number - $second_number
    ;;
    
    
+   "Multiply" | "multiply"| "3")
+   echo "Enter the first number"
+read first_number
+   echo "The number you entered is $first_number"
+   echo "Enter the second number"
+read second_number
+   echo "The number you entered is $second_number"
+   echo "The multiplication of $first_number and $second_number is:"
+expr $first_number \* $second_number
+   ;;
+   
+   
+ 
