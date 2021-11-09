@@ -43,3 +43,15 @@ expr $first_number + $second_number
    ;;
    
    
+  "Subtract" | "subtract"| "2")
+   echo "Enter the first number"
+read first_number
+   echo "The number you entered is $first_number"
+   echo "Enter the second number"
+read second_number
+   echo "The number you entered is $second_number"
+   echo "The difference of $first_number and $second_number is:"
+expr $first_number - $second_number
+   ;;
+   
+   
