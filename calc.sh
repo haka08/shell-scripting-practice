@@ -17,10 +17,29 @@ echo "1 : Add"
 echo "2 : Substract"
   # Multiply 
 echo "3 : Multiply"
+  # Divide 
+echo "4: Divide"
   # Exit
-echo "4 : Exit"
+echo "5 : Exit"
 
 # Then, capture the user selection.
+
+echo "Enter the name of the operation you would like to run:"
+read selection
+echo "The operation entered was: $selection"
+
 # If the selection matches a supported operation, execute the operation.
-# If the selection does not match a support operation, display an error message.
-# When the operation is complete, redisplay the menu.
+
+case $selection in 
+  "Add" | "add" | "1")   
+   echo "Enter the first number"
+read first_number
+   echo "The number you entered is $first_number"
+   echo "Enter the second number"
+read second_number
+   echo "The number you entered is $second_number"
+   echo "The sum of $first_number and $second_number is:"
+expr $first_number + $second_number
+   ;;
+   
+   
