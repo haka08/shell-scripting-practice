@@ -79,4 +79,11 @@ expr $first_number / $second_number
    ;;
    
    
+ "Exit" | "exit"| "5")
+  echo "Goodbye and happy calculations!"
+  exit 0
+  ;;
+
+ 
+
  
